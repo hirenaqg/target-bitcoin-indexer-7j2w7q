@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (727fd300fa6f8471)
+project:
+  name: target-bitcoin-indexer-7j2w7q
+  tag: 727fd300fa6f8471
+  env: production
+cfg_vector3hdj39:
+  enabled: true
+  workers: 8
+cfg_bridgejz8kb8:
+  timeout_sec: 18
+  retry: 3
+cfg_nexusjvyzn3:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
